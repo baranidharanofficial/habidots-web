@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-50 via-white to-pink-50 dark:from-[#0F0F1A] dark:via-[#1a1a2e] dark:to-[#0F0F1A]" />
+      <div className="absolute inset-0 bg-linear-to-br from-purple-50 via-white to-pink-50 dark:from-[#0F0F1A] dark:via-[#1a1a2e] dark:to-[#0F0F1A]" />
 
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">

@@ -77,10 +77,8 @@ export const metadata: Metadata = {
     creator: "@habidots",
   },
   icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/logo.png", type: "image/png" },
-    ],
+    icon: "/logo.png",
+    shortcut: "/logo.png",
     apple: "/logo.png",
   },
   manifest: "/manifest.json",
