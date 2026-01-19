@@ -87,12 +87,12 @@ export default function Hero() {
             {/* Social proof */}
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
               <div className="flex -space-x-3">
-                {[1, 2, 3, 4, 5].map((i) => (
+                {['H', 'K', 'F'].map((i) => (
                   <div
                     key={i}
                     className="w-10 h-10 rounded-full bg-linear-to-br from-purple-400 to-pink-400 border-2 border-white dark:border-gray-800 flex items-center justify-center text-white text-xs font-bold"
                   >
-                    {String.fromCharCode(64 + i)}
+                    {i}
                   </div>
                 ))}
               </div>
