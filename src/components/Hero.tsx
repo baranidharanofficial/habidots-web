@@ -57,7 +57,8 @@ export default function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
               <Link
-                href="#download"
+                href="https://apps.apple.com/app/id6771414409"
+                target="_blank"
                 className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-linear-to-r from-[#7C3AED] to-[#6D28D9] text-white rounded-full font-bold text-lg hover:shadow-xl hover:shadow-purple-500/30 transition-all hover:scale-105"
               >
                 <svg
@@ -70,7 +71,8 @@ export default function Hero() {
                 Download for iOS
               </Link>
               <Link
-                href="#download"
+                href="https://play.google.com/store/apps/details?id=com.glactic.streakit"
+                target="_blank"
                 className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white border-2 border-gray-200 dark:border-gray-700 rounded-full font-bold text-lg hover:border-[#7C3AED] hover:text-[#7C3AED] dark:hover:border-[#A78BFA] dark:hover:text-[#A78BFA] transition-all hover:scale-105"
               >
                 <svg

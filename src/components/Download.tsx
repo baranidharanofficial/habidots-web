@@ -36,7 +36,8 @@ export default function Download() {
               {/* App store buttons */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a
-                  href="#"
+                  href="https://apps.apple.com/app/id6771414409"
+                  target="_blank"
                   className="inline-flex items-center gap-3 px-6 py-4 bg-black rounded-xl hover:bg-gray-900 transition-all hover:scale-105 shadow-lg"
                 >
                   <svg
@@ -55,7 +56,8 @@ export default function Download() {
                 </a>
 
                 <a
-                  href="#"
+                  href="https://play.google.com/store/apps/details?id=com.glactic.streakit"
+                  target="_blank"
                   className="inline-flex items-center gap-3 px-6 py-4 bg-black rounded-xl hover:bg-gray-900 transition-all hover:scale-105 shadow-lg"
                 >
                   <svg
