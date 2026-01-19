@@ -87,12 +87,16 @@ export default function Hero() {
             {/* Social proof */}
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
               <div className="flex -space-x-3">
-                {['H', 'K', 'F'].map((i) => (
+                {[
+                  { letter: 'H', gradient: 'from-violet-500 to-purple-600' },
+                  { letter: 'K', gradient: 'from-amber-400 to-orange-500' },
+                  { letter: 'F', gradient: 'from-emerald-400 to-teal-500' },
+                ].map((item) => (
                   <div
-                    key={i}
-                    className="w-10 h-10 rounded-full bg-linear-to-br from-purple-400 to-pink-400 border-2 border-white dark:border-gray-800 flex items-center justify-center text-white text-xs font-bold"
+                    key={item.letter}
+                    className={`w-10 h-10 rounded-full bg-linear-to-br ${item.gradient} border-2 border-white dark:border-gray-800 flex items-center justify-center text-white text-xs font-bold`}
                   >
-                    {i}
+                    {item.letter}
                   </div>
                 ))}
               </div>
@@ -109,7 +113,7 @@ export default function Hero() {
           <div className="relative flex justify-center">
             {/* Glow effect behind phone */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-72 h-72 md:w-96 md:h-96 bg-gradient-to-r from-[#7C3AED] to-[#F472B6] rounded-full blur-3xl opacity-30 animate-pulse-glow" />
+              <div className="w-72 h-72 md:w-96 md:h-96 bg-linear-to-r from-[#7C3AED] to-[#F472B6] rounded-full blur-3xl opacity-30 animate-pulse-glow" />
             </div>
 
             {/* Phone mockup */}
